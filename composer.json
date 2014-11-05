@@ -1,0 +1,13 @@
+{
+	"name" : "dmyers2004/mini-mvc-application-folder",
+	"type": "library",
+	"description" : "mini mvc application folder",
+	"license": "MIT",
+	"authors": [{
+			"name": "Don Myers",
+			"email": "donmyers@me.com"
+	}],
+	"require": {
+		"php": ">=5.4.0"
+	}
+}
