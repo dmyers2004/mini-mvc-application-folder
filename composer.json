@@ -9,5 +9,12 @@
 	}],
 	"require": {
 		"php": ">=5.4.0"
+	},
+	"extra": {
+		"installer-paths": {
+			"application": [
+				"dmyers2004/mini-mvc-application-folder"
+			]
+		}
 	}
 }
