@@ -5,6 +5,10 @@ use \dmyers\mvc\controller;
 class mainController extends controller {
 
 	public function indexAction() {
+		echo 'mainController::indexAction';
+	}
+
+	public function viewAction() {
 		$this->data['welcome'] = 'Ready To Go!';
 
 		$this->c->view->load('index',$this->data);
@@ -20,7 +24,8 @@ class mainController extends controller {
 
 	public function pageAction() {
 		$this->c->page
-			->plugin('plugins\drfoo\drfoo')
+			->theme('orange')
+			->plugin('drfoo')
 			->js('foobar/here.js')
 			->title('foobar')
 			->build();
